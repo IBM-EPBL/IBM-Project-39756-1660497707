@@ -10,6 +10,6 @@ for i in range (30,80):
 	print (h)
 
 	if (humidity >=75 or temp >=40):
-		print (“! ! HIGH ALERT ! !”)
+		print ("! ! HIGH ALERT ! !")
 	else:
-		print(“LOW”)     
+		print("LOW")     
