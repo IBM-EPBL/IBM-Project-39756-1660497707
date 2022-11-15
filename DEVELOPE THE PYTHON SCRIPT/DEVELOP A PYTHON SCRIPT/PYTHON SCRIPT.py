@@ -7,15 +7,15 @@ from twilio.rest import Client
 import keys
 Client = Client(keys.account_sid, keys.auth_token)
 
-organization = "lwkiec"
-deviceType = "Microcontroller_Device_1"
-deviceId = "00002"
+organization = "bb4dvw"
+deviceType = "b11m3edevicetype"
+deviceId = "25481Device"
 authMethod = "token"
-authToken = "sushi@123"
+authToken = "e69LyKf9u2&sno6uSG"
 
 
 pH = random.randint(1, 14)
-turbidity = random.randint(1, 1000)
+turbidity = random.randint(1, 100)
 temperature = random.randint(0, 100)
 
 
@@ -38,7 +38,7 @@ deviceCli.connect()
 while True:
 
     pH = random.randint(1, 14)
-    turbidity = random.randint(1, 1000)
+    turbidity = random.randint(1, 100)
     temperature = random.randint(0, 100)
 
     data = {'pH': pH, 'turbid': turbidity, 'temp': temperature}
